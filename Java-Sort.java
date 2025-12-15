@@ -45,8 +45,8 @@ class Solution {
         }
         
         // USE COMPARATOR TO SORT
-        Collections.sort(studentList, Comparator.getId
-                                                .getName
+        Collections.sort(studentList, Comparator.getName
+                                                .getId
                                                 .getCgpa);
 
         for (Student newStudent : studentList) {
